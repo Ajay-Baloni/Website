@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: auto;
+  flex-direction: column;
+}
+
+.wrapper .top_nav,
+.wrapper .bottom_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.wrapper .top_nav {
+  background: #fff;
+  height: 50px;
+  width: auto;
+}
+
+.wrapper .top_nav .icon a {
+  margin-right: 14px;
+  padding-top: 4px;
+  height: 49px;
+}
+
+.wrapper .top_nav .left ul li a {
+  display: block;
+  padding: 8px 10px;
+  color: #666666;
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.wrapper .top_nav .left ul {
+  display: flex;
+}
+
+.wrapper .top_nav .icon ul {
+  display: flex;
+}
+
+.wrapper .bottom_nav {
+  background: #0d204b;
+  height: 50px;
+  padding: 0 48px;
+  width: auto;
+  align-items: center;
+}
+
+.wrapper .bottom_nav .left i {
+  font-size: medium;
+}
+
+.wrapper .bottom_nav ul {
+  padding: 3px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.wrapper .bottom_nav .img {
+  size: 10pc;
+}
+
+.wrapper .bottom_nav ul li {
+  margin: 10px;
+}
+
+.wrapper .bottom_nav ul li a {
+  color: #a7a5a5;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+.container img {
+  width: 1366px;
+  height: 734px;
+  display: flex;
+}
+
+/* first image */
+#first_image {
+  background-image: url("images/Main Page banner.png");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  min-height: fit-content;
+  background-position: top 100% right 0;
+  padding: 15vh 40vh;
+}
+.content {
+}
+
+.content h1 {
+  font-size: 42px;
+  color: #3c4664;
+}
+.content p {
+  font-size: 22px;
+  color: #3c4664;
+}
+
+.first_image_logo {
+  display: flex;
+  margin: 5% 0;
+}
+
+.fs_first_logo {
+  height: 50px;
+  width: 245px;
+}
+
+.fs_second_logo {
+  height: 50px;
+  width: 245px;
+}
+
+/* second image */
+#second_image {
+  background-image: url("images/Mask\ Group\ 322.png");
+  height: 100vh;
+  background-size: cover;
+  min-height: fit-content;
+  background-position: top 100% right 0;
+  padding: 15vh 40vh;
+}
+
+/* third image */
+#third_image {
+  background-image: url("images/Mask\ Group.png");
+  height: 100vh;
+  background-size: cover;
+  min-height: fit-content;
+  background-position: top 100% right 0;
+  padding: 15vh 40vh;
+  padding-right: 60vh;
+}
+
+.third_image_first_row {
+  display: flex;
+  margin-bottom: 50px;
+}
+.mid {
+  align-items: center;
+}
+
+.third_image_about {
+  font-size: 80px;
+  color: whitesmoke;
+}
+
+#third_image p {
+  color: whitesmoke;
+  font-size: 26px;
+}
+
+.third_image_logob {
+  height: 50px;
+  width: 245px;
+}
+
+.third_image_botttom {
+  margin-top: 150px;
+}
+
+/* OUR SERVICES */
+#our_services {
+  height: 100vh;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+#our_services p {
+  font-size: 100px;
+}
+
+.our_services_images {
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.our_services_images img {
+  height: 350px;
+  width: 350px;
+}
