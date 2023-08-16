@@ -1,0 +1,294 @@
+@media screen and (max-width: 1683px) {
+  /* second section */
+
+  #second_section .first_image_content h1 {
+    font-size: 50px;
+  }
+  #second_section .first_image_content p {
+    font-size: 24px;
+  }
+
+  /* third section */
+  #third_section {
+    height: 62vh;
+    padding: 0 5%;
+  }
+
+  /* fouth section */
+  #fourth_section {
+    padding: 0 5%;
+    height: 130vh;
+  }
+  .fourth_section_left h1 {
+    font-size: 25px;
+    padding: 25px 0;
+  }
+  .fourth_section_left h1 span {
+    font-size: 50px;
+  }
+  .fourth_section_left p {
+    font-size: 30px;
+    padding: 15px 0;
+  }
+
+  .fourth_section_left {
+    width: 66%;
+  }
+  .fourth_section_right {
+    width: 34%;
+  }
+  .fourth_section_right img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .rectangle-box {
+    width: 430px;
+    height: 60px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  /* second section */
+
+  #second_section {
+    padding: 0 3%;
+  }
+
+  #second_section .first_image_content h1 {
+    font-size: 53px;
+  }
+  #second_section .first_image_content p {
+    font-size: 26px;
+  }
+
+  /* third section */
+  #third_section {
+    padding: 0 3%;
+  }
+
+  .div_p {
+    width: 70%;
+  }
+
+  .div_p p {
+    font-size: 24px;
+  }
+
+  .div_p div {
+    padding-right: 2%;
+  }
+
+  .cap_div {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .cap_div {
+    width: 30%;
+  }
+
+  /* fourth section */
+  #fourth_section {
+    padding: 0 3%;
+    height: 130vh;
+  }
+
+  .fourth_section_left h1 {
+    font-size: 28px;
+    padding: 15px 0;
+    text-align: center;
+  }
+  .fourth_section_left h1 span {
+    font-size: 55px;
+  }
+  .fourth_section_left p {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+
+  .fourth_section_flex {
+    flex-direction: column-reverse;
+  }
+
+  .fourth_section_left {
+    width: 100%;
+  }
+  .fourth_section_right {
+    width: 100%;
+  }
+  .plane_flex {
+    height: 15vh;
+    justify-content: center;
+  }
+
+  .rectangle-box {
+    width: 250px;
+    justify-content: center;
+  }
+
+  .fourth_section_right {
+    height: 100%;
+  }
+  .fourth_section_right img {
+    height: 550px;
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* second section */
+
+  #second_section .first_image_content h1 {
+    font-size: 34px;
+  }
+  #second_section .first_image_content p {
+    font-size: 17px;
+  }
+  /* third section */
+  #third_section {
+    height: 70vh;
+  }
+
+  .third_section_flex {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .div_p {
+    width: 100%;
+  }
+
+  .cap_div {
+    height: 390px;
+    width: 390px;
+    justify-content: center;
+  }
+
+  .div_p p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .cap_div img {
+    height: 240px;
+    width: 240px;
+  }
+  /* fouth section */
+
+  #fourth_section {
+    padding: 0 3%;
+    height: 100vh;
+  }
+  .fourth_section_left h1 {
+    font-size: 20px;
+    padding: 0;
+  }
+  .fourth_section_left h1 span {
+    font-size: 28px;
+  }
+  .fourth_section_left p {
+    font-size: 18px;
+    padding: 8px 0;
+  }
+
+  .fourth_section_right img {
+    height: 320px;
+    width: 285px;
+  }
+
+  .plane_flex {
+    height: 10vh;
+    justify-content: center;
+  }
+
+  .rectangle-box {
+    width: 240px;
+    height: 45px;
+  }
+
+  .plane img {
+    width: 170px;
+    float: left;
+  }
+
+  .fourth_section_right {
+    height: 100%;
+  }
+  .plane {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* second section */
+  #second_section {
+    padding: 0 1%;
+  }
+  #second_section .first_image_content h1 {
+    font-size: 22px;
+  }
+  #second_section .first_image_content p {
+    font-size: 14px;
+  }
+
+  /* third section */
+
+  #third_section {
+    height: 50vh;
+    padding: 0 1%;
+  }
+
+  .cap_div {
+    height: 300px;
+    width: 300px;
+  }
+
+  .div_p p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .cap_div img {
+    height: 180px;
+    width: 180px;
+  }
+
+  /* fouth section */
+  #fourth_section {
+    padding: 0 1%;
+    height: 100vh;
+  }
+
+  .fourth_section_left h1 {
+    font-size: 17px;
+  }
+  .fourth_section_left h1 span {
+    font-size: 22px;
+  }
+  .fourth_section_left p {
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  .fourth_section_right img {
+    height: 337px;
+    width: 290px;
+  }
+
+  .rectangle-box p {
+    font-size: 13px;
+  }
+  .rectangle-box {
+    width: 230px;
+    height: 40px;
+  }
+
+  .plane img {
+    width: 140px;
+  }
+}

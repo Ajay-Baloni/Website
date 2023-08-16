@@ -1,0 +1,149 @@
+/* .object-container {
+  margin-block-end: -4px;
+  padding: 0;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* global  for second and third section*/
+.images_div {
+  height: 100%;
+  width: 30%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 10px 0; */
+}
+
+.images_div img {
+  /* width: 500px;
+  height: 500px; */
+  max-width: 90%;
+  max-height: 90%;
+  display: block; /* remove extra space below image */
+}
+
+.second_div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_div {
+  width: 70%;
+}
+
+.content_div p {
+  font-size: 35px;
+  color: #0d204b;
+}
+
+/* section_one */
+
+#section_one {
+  background-image: url("/PNG/PNG/Asset\ 30@2x.png");
+  height: 90vh;
+  background-size: cover;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+#section_one h1 {
+  font-size: 58px;
+  color: #0d204b;
+  padding: 0;
+  margin: 0;
+}
+#section_one p {
+  font-size: 34px;
+  color: #0d204b;
+  padding: 0;
+  margin: 0;
+}
+
+/* section_two */
+
+#section_two {
+  height: 65vh;
+  background-color: rgb(216, 216, 216);
+  padding: 0 5%;
+  overflow: hidden;
+}
+
+.resume_matters_h {
+  font-size: 55px;
+  color: #0d204b;
+}
+
+.resume_matters_h span {
+  font-size: 85px;
+  color: #0d204b;
+}
+
+/* section_third */
+#section_third {
+  height: 65vh;
+  padding: 0 5%;
+}
+
+#section_third .content_div h1 {
+  font-size: 50px;
+  color: #0d204b;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* section_fourth */
+#section_fourth {
+  height: 35vh;
+  background-image: url("/images/Mask\ Group.png");
+  background-size: cover;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.plane_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle-box {
+  display: inline-block;
+  background-color: white;
+  border-radius: 50px;
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rectangle-box p {
+  padding: 0 25px;
+  color: #0d204b;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.plane {
+  width: 350px;
+}
+.plane img {
+  width: 244px;
+  float: right;
+  color: white;
+  filter: brightness(0) invert(1);
+}

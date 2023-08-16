@@ -98,18 +98,21 @@ html {
 #first_image {
   background-image: url("images/Main Page banner.png");
   height: 90vh;
+  max-width: 100%;
   width: 100%;
   background-size: cover;
   min-height: fit-content;
   background-position: top 100% right 0;
-  padding: 15vh 40vh;
+  padding: 10vh 40vh;
 }
 .content {
+  /* border: 2px black solid; */
 }
 
 .content h1 {
   font-size: 42px;
   color: #3c4664;
+  margin-top: 150px;
 }
 .content p {
   font-size: 22px;
@@ -138,25 +141,49 @@ html {
   background-size: cover;
   min-height: fit-content;
   background-position: top 100% right 0;
-  padding: 15vh 40vh;
+  padding: 0 40vh;
+  /* border: 2px black solid; */
+  align-items: flex-start;
+}
+
+.half_circle {
+  /* border: 2px black solid; */
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+}
+
+.half_circle img {
+  /* border: 2px black solid; */
+  width: 120px;
+  height: 56px;
 }
 
 /* third image */
 #third_image {
   background-image: url("images/Mask\ Group.png");
-  height: 100vh;
+  max-height: 100vh;
   background-size: cover;
   min-height: fit-content;
   background-position: top 100% right 0;
-  padding: 15vh 40vh;
-  padding-right: 60vh;
+  padding: 0 40vh;
+  border: 2px black solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.half_circle_second {
+  height: 80vh;
+  /* border: 2px black solid; */
+  padding-right: 20vh;
+}
+.half_circle_second div {
+  padding: 20px 0;
 }
 
 .third_image_first_row {
   display: flex;
-  margin-bottom: 50px;
-}
-.mid {
+  /* border: 2px black solid; */
   align-items: center;
 }
 
@@ -170,24 +197,28 @@ html {
   font-size: 26px;
 }
 
-.third_image_logob {
+.third_image_botttom {
+  /* border: 2px black solid; */
+  margin: 5% 0;
+}
+.third_image_botttom img {
   height: 50px;
   width: 245px;
-}
-
-.third_image_botttom {
-  margin-top: 150px;
 }
 
 /* OUR SERVICES */
 #our_services {
   height: 100vh;
+  max-width: auto;
   box-sizing: border-box;
   min-height: fit-content;
+  /* border: 2px black solid; */
 }
 
-#our_services p {
+.our_services_para {
   font-size: 100px;
+  padding: 0 40vh;
+  color: #0d204b;
 }
 
 .our_services_images {
@@ -195,9 +226,90 @@ html {
   gap: 5rem;
   text-align: center;
   justify-content: center;
+  /* border: 1px black solid; */
+  padding: 2%;
+  margin-top: 2%;
 }
 
 .our_services_images img {
-  height: 350px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
+}
+
+#our_services p {
+}
+
+#our_services h1 {
+}
+
+.sss {
+  height: 100px;
+  padding-left: 40vh;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+}
+
+.left_line,
+.right_line {
+  border: 1px black solid;
+  height: 0px;
+}
+.left_line {
+  width: 75%;
+}
+.right_line {
+  width: 15%;
+}
+
+.text {
+  justify-content: center;
+  display: flex;
+  width: 10%;
+  align-items: center;
+}
+
+.text img {
+  height: 12px;
+}
+
+.testimonials {
+  padding-left: 38vh;
+  /* border: 1px black solid; */
+  color: #0d204b;
+  font-size: 50px;
+}
+
+/* last */
+#last {
+  height: 40vh;
+  background-color: #0d204b;
+  display: flex;
+  padding: 6vh 40vh;
+}
+
+#last p {
+  color: white;
+}
+
+.last_logo {
+  height: 250px;
+  width: 250px;
+}
+
+.last_div {
+  display: flex;
+}
+
+#last_section {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+#last_section img {
+  height: 25px;
+  width: 50px;
 }
